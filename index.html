@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Esonori</title>
+
+    <link rel="icon" type="images" href="img/logo.jpg" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sacramento&family=Work+Sans:wght@100;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- My Css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section
+      id="hero"
+      class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center text-white"
+    >
+      <main>
+        <h1>Esonori</h1>
+        
+        </p>
+        <a href="#home" class="btn btn-lg mt-4">Lihat Produk</a>
+      </main>
+    </section>
+
+    <nav class="navbar navbar-expand-md bg-body-tertiary sticky-top mynavbar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Esonori</a>
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Esonori</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link" href="#home">Home</a>
+              <a class="nav-link" href="#review">Review</a>
+              <a class="nav-link" href="#order">Order</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section id="home" class="home">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 text-center">
+            <img src="img/logo.jpg" alt="esonori">
+            <h2>Esonori</h2>
+            <h3>Esonori</h3>
+            <p>
+              Esonori adalah makanan pelengkap yang berasal dari olahan daun melinjo yang diinovasikan menjadi topping makanan bercita rasa gurih dan pedas. Esonori ini berbentuk seperti nori yang biasanya untuk taburan makanan dengan sensasi yang berasal dari daun melinjo.
+            </p>
+            <img src="img/photoproduct.png" alt="photoproduct">
+            <img src="img/photoproduct2.png" alt="photoproduct2">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="review" class="review">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text text-center">
+            <h2>Review Esonori</h2>
+            
+          </div>
+        </div>
+
+        <div class="row justify-content-around mt-5">
+          <div class="col-md-6">
+            <div id="disqus_thread"></div>
+            <script>
+              /**
+               *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+               *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+              /*
+              var disqus_config = function () {
+              this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+              this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+              };
+              */
+              (function () {
+                // DON'T EDIT BELOW THIS LINE
+                var d = document,
+                  s = d.createElement("script");
+                s.src = "https://esonori.disqus.com/embed.js";
+                s.setAttribute("data-timestamp", +new Date());
+                (d.head || d.body).appendChild(s);
+              })();
+            </script>
+            <noscript
+              >Please enable JavaScript to view the
+              <a href="https://disqus.com/?ref_noscript"
+                >comments powered by Disqus.</a
+              ></noscript
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="order" class="order">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <h2>Konfirmasi Pre-order</h2>
+            <p>
+              Isi form di bawah ini untuk melakukan pre-oder produk Esonori.
+            </p>
+          </div>
+        </div>
+
+        <form
+          class="row row-cols-md-auto g-3 align-items-center justify-content-center"
+          method="POST"
+          action="https://script.google.com/macros/s/AKfycbz07lfC5Hdsal_TYouTUFYbas1skTO7H_dkF8zt-bzF8QGJcRWLQOpo35lLIQkqJU2S/exec"
+          id="my-form"
+        >
+          <div class="col-12">
+            <div class="mb-3">
+              <label for="nama" class="form-label">Nama</label>
+              <input type="text" class="form-control" id="nama" name="nama" />
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="mb-3">
+              <label for="telepon" class="form-label">No Telepon</label>
+              <input type="text" class="form-control" id="telepon" name="telepon" />
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="mb-3">
+              <label for="jumlah" class="form-label">Jumlah Order</label>
+              <input
+                type="number"
+                class="form-control"
+                id="jumlah"
+                name="jumlah"
+                min="1"
+                max="10"
+                length="1"
+                value="1"
+              />
+            </div>
+          </div>
+
+          <!-- <div class="col-12">
+          <div class="mb-3">
+            <label for="status" class="form-label">Jumlah Order</label>
+            <select name="status" id="status" class="form-select">
+              <option selected>Konfirmasi Jumlah Order</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+          </div>
+        </div> -->
+
+          <div class="col-12" style="margin-top: 35px">
+            <button class="btn btn-primary">Kirim</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="cool text-center">
+            <small class="block">&copy; Hans. All Rights Reserved.</small>
+            <small class="block"
+              >Design by
+              <a href="https://www.instagram.com/farhanyuzaa/"
+                >@farhanyuzaa</a
+              ></small
+            >
+
+            <ul class="mt-3">
+              <li>
+                <a href="https://www.instagram.com/farhanyuzaa/">
+                <i class="bi bi-instagram"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="contact-order">
+      <a href="https://api.whatsapp.com/send/?phone=6287743984570&type=phone_number&app_absent=0">
+      <i class="bi bi-whatsapp"></i></a>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      window.addEventListener("load", function () {
+        const form = document.getElementById("my-form");
+        form.addEventListener("submit", function (e) {
+          e.preventDefault();
+          const data = new FormData(form);
+          const action = e.target.action;
+          fetch(action, {
+            method: "POST",
+            body: data,
+          }).then(() => {
+            alert("Konfirmasi pre-order berhasil terkirim!");
+          });
+        });
+      });
+    </script>
+    <script
+      id="dsq-count-scr"
+      src="//esonori.disqus.com/count.js"
+      async
+    ></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
