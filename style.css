@@ -37,7 +37,7 @@ body {
 
 .hero h1 {
   font-family: "Sacramento", sans-serif;
-  font-size: 5rem;
+  font-size: 9rem;
   color: white;
 }
 
@@ -73,12 +73,13 @@ body {
 .mynavbar .navbar-brand,
 .mynavbar .offcanvas-title {
   font-family: "Sacramento", cursive;
-  font-size: 3.2rem;
+  font-size: 4rem;
   font-weight: bold;
 }
 
 .mynavbar .nav-link {
   text-transform: uppercase;
+  font-size: 1.5rem;
 }
 
 .home {
@@ -102,13 +103,14 @@ body {
 
 .home h3 {
   color: #444;
-  font-size: 1.5rem;
+  font-size: 3rem;
   margin-bottom: 1rem;
 }
 
 .home p {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   color: #666;
+  text-align: justify;
 }
 
 .home img {  
@@ -191,6 +193,24 @@ footer li {
   position: fixed;
   bottom: 2.5rem;
   right: 2rem;
+  cursor: pointer;
+  color: #02ef0a;
+  opacity: 0.5;
+  mix-blend-mode: difference;
+  animation: rotating 4s linear infinite;
+  transform-origin: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 0;
+}
+.contact-instagram {
+  width: 3rem;
+  height: 3rem;
+  font-size: 3rem;
+  position: fixed;
+  bottom: 2.5rem;
+  left: 2rem;
   cursor: pointer;
   color: #02ef0a;
   opacity: 0.5;
